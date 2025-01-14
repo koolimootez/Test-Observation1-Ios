@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4BED864A2D36BB5C00C33232 /* FruitDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BED86492D36BB5C00C33232 /* FruitDetails.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		4B03FB022D36646700FE2DE0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		4B03FAEC2D36646600FE2DE0 /* Test-Observation1-Ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test-Observation1-Ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B03FB012D36646700FE2DE0 /* Test-Observation1-IosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test-Observation1-IosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B03FB0B2D36646700FE2DE0 /* Test-Observation1-IosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test-Observation1-IosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BED86492D36BB5C00C33232 /* FruitDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		4B03FAE32D36646600FE2DE0 = {
 			isa = PBXGroup;
 			children = (
+				4BED86492D36BB5C00C33232 /* FruitDetails.swift */,
 				4B03FAEE2D36646600FE2DE0 /* Test-Observation1-Ios */,
 				4B03FB042D36646700FE2DE0 /* Test-Observation1-IosTests */,
 				4B03FB0E2D36646700FE2DE0 /* Test-Observation1-IosUITests */,
@@ -236,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BED864A2D36BB5C00C33232 /* FruitDetails.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
