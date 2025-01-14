@@ -13,7 +13,7 @@ struct Test_Observation1_IosApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreen()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
