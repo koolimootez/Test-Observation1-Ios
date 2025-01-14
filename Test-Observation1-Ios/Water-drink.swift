@@ -37,7 +37,7 @@ struct Water_drink: View {
 
                // Illustration et Description
                VStack(spacing: 10) {
-                   Image(systemName: "drop.fill") // Remplacez par une illustration personnalisée si besoin
+                   Image(systemName: "waterbottle") // Remplacez par une illustration personnalisée si besoin
                        .resizable()
                        .scaledToFit()
                        .frame(height: 120)
