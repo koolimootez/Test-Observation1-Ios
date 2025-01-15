@@ -101,6 +101,3 @@ struct MeilluerSommeilDetails: View {
 }
 
 
-#Preview {
-    MeilluerSommeilDetails()
-}
