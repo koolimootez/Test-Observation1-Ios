@@ -13,7 +13,8 @@ struct Test_Observation1_IosApp: App {
 
     var body: some Scene {
         WindowGroup {
-            juiceDrink()
+            DeclarationViewDetails()
+           // SplashScreen(selectedMood: .constant("Suoer"), selectedMoodColor: .constant(.green))
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
